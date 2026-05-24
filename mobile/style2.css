@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(CaviarDreams.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+      margin: 0;
+      font-family: 'Caviar Dreams', sans-serif;
+      background: black;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+        height: 100%;
+      max-width: 420px;
+      padding: 8px;
+      box-sizing: border-box;
+      align-items: center;
+        align-content: center;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(0deg, #161b24, #222831);
+        color: gold;
+      text-align: center;
+      padding: 2px 0px 8px 0px;
+      font-size: 3vh;
+      font-weight: bold;
+      margin-bottom: 10px;
+      border-radius: 5px;
+        border: 4px ridge #161b24;
+        text-shadow: 0px 0px 2px black, 0px 0px 5px gold;
+        height: 3vh;
+        align-items: center;
+    }
+
+    /* Viewer */
+    .viewer {
+      background: #161b24;
+      padding: 5px 1px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       border: 4px ridge #161b24; 
+    }
+
+.grid {
+      width: 90vw;
+      max-width: 400px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+    }
+
+    .card {
+      aspect-ratio: 3/4;
+      border-radius: 5px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.4s;
+    }
+
+    .card.flip {
+      transform: rotateY(180deg);
+    }
+
+    .front, .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      backface-visibility: hidden;
+    }
+
+    .front {
+      background-size: cover;
+      background-position: center;
+      transform: rotateY(180deg);
+    }
+
+    .back {
+      --s: 15px; /* control the size*/
+  --c1: olive;
+  --c2: goldenrod;
+  
+  --_g: 
+    #0000 calc(-650%/13) calc(50%/13),var(--c1) 0 calc(100%/13),
+    #0000 0 calc(150%/13),var(--c1) 0 calc(200%/13),
+    #0000 0 calc(250%/13),var(--c1) 0 calc(300%/13);
+  --_g0: repeating-linear-gradient( 45deg,var(--_g));
+  --_g1: repeating-linear-gradient(-45deg,var(--_g));
+  background:
+    var(--_g0),var(--_g0) var(--s) var(--s),
+    var(--_g1),var(--_g1) var(--s) var(--s) var(--c2);
+  background-size: calc(2*var(--s)) calc(2*var(--s));
+    }
+
+    .win {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      display: flex;
+        flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Bottom buttons */
+    .bottom-buttons {
+      display: flex;
+      justify-content: space-between;
+      gap: 25px;
+        margin: 0px 15%;  
+    }
+
+    .bottom-buttons button {
+      flex: 1;
+      padding: 7px 10px;
+      font-size: 2.5vh;
+      border-radius: 5px;
+      background: linear-gradient(0deg, gold, yellow );
+      font-family: 'Caviar Dreams';
+      font-weight: bold;
+    }
+
+.bottom-buttons button:active {
+  transform: scale(0.95);
+}
+
+#puzzleBtn{
+    background: linear-gradient(0deg, #372616, #592525);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#musicBtn{
+    background: linear-gradient(0deg, #161b24, #222831);
+    text-shadow: 2px 2px 4px black;
+    color: white;   
+}
+
+#version{
+    color: beige;
+    text-align: center;
+    
+}
+#winner{
+    color: beige;
+    text-align: center;
+}
+
+#tries{
+    background: linear-gradient(0deg, #161b24, #222831);
+    text-shadow: 2px 2px 4px black;
+    color: white;  
+    padding: 4px 20px 5px 20px;
+      font-size: 2.5vh;
+    font-family: 'Caviar Dreams';
+      font-weight: bold;
+    border: 4px ridge #161b24;
+}
