@@ -507,20 +507,6 @@ welcomeScreen.addEventListener("click", () => {
   enterBtn.click();
 });
 
-//PUZZLE
-const puzzleBtn = document.getElementById("puzzleBtn");
-
-puzzleBtn.addEventListener("click", () => {
-  const currentImg = document.querySelector(".front img")?.src;
-
-  if (currentImg) {
-    localStorage.setItem("puzzleImage", currentImg);
-  }
-
-  window.location.href = "index_2.html";
-});
-
-  
   const music = document.getElementById("bgMusic");
 const musicBtn = document.getElementById("musicBtn");
 
