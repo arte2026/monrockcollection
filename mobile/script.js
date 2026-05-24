@@ -48,21 +48,21 @@ aboutBtn.addEventListener("click", () => {
 const artworks = {
   rock: [
     {
-      img: "/images/rock/1.jpg",
+      img: "../images/rock/1.jpg",
       title: "Jimi Hendrix",
       size: "30 x 40 in",
       medium: "Oil on Canvas",
         info: "An electrifying tribute to the unmatched sonic innovator. This portrait captures Jimi Hendrix in a moment of pure, transcendent performance. As eyes close and the guitar screams, Hector Monroy uses a high-contrast, psychedelic explosion of oranges and deep purples to translate Hendrix’s revolutionary sound into visceral, visual power. It is a monument to the Voodoo Child’s enduring, firebird spirit."
     },
     {
-      img: "rock2.jpg",
+      img: "../images/rock/16.jpg",
       title: "The Beatles",
       size: "39 x 39 in",
       medium: "Oil on Canvas",
         info: "A striking tribute to the Fab Four and their revolutionary Apple Corps legacy. This piece centers the iconic green apple against the backdrop of the Union Jack, framing the individual spirits of John, Paul, George, and Ringo. It is a vibrant celebration of the band that didn't just top the charts—they redefined the visual and musical language of the 20th century."
     },
       {
-      img: "rock3.jpg",
+      img: "../images/rock/11.jpg",
       title: "Janis Joplin",
       size: "30 x 40 in",
       medium: "Oil on Canvas",
