@@ -35,6 +35,16 @@
 
   gtag('config', 'UA-88267789-2');
 </script>
+    
+    <script>
+const isMobile =
+  /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent)
+  || window.innerWidth <= 640;
+
+if (isMobile) {
+  window.location.href = "mobile/index.html";
+}
+</script>
 
 </head>
 
