@@ -300,7 +300,7 @@ const artworks = {
         info:"This dramatic painting immortalizes Brady in dual focus—poised in white jersey, football ready to launch, while a larger vision of him looms behind in Buccaneers colors, engulfed in flames. The composition radiates intensity and determination, blending realism with fiery symbolism. It celebrates Brady’s legendary presence as both a precise quarterback and an enduring icon of competitive spirit."
     },
       {
-      img: "../images/sports/11.jpg",
+      img: "../images/golf/2.jpg",
       title: "Preparing Swing",
       size: "24 x 32 in",
       medium: "Oil on Masonite",
