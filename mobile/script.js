@@ -48,7 +48,7 @@ aboutBtn.addEventListener("click", () => {
 const artworks = {
   rock: [
     {
-      img: ".../images/rock/1.jpg",
+      img: "/images/rock/1.jpg",
       title: "Jimi Hendrix",
       size: "30 x 40 in",
       medium: "Oil on Canvas",
