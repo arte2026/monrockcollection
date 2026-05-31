@@ -18,7 +18,13 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, td, th, .mailchimp-f
 ::-moz-placeholder { color: #888888; }
 :-ms-input-placeholder { color: #888888; }
 
-#footer .payment-options li a, #footer .copyright p { color:#46484c;}
+.payment-options{
+    color: snow;
+    font-size: 100px;
+    text-align: center;
+}
+
+#footer li a, #footer .copyright p { color:gray;}
 
 .about-details p, .dt-sc-ico-content > p, .dt-sc-ico-content p a, .entry-details .entry-metadata p, .blog-entry .entry-metadata p a, .blog-entry .entry-title h4 a, .dt-sc-contact-details, .dt-sc-contact-details a, .enquiry-details p, .enquiry-details a, .dt-sc-contact-details:hover span, .newsletter .newsletter-text, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], input[type="search"], textarea, input.text, .widget ul li:before, .shop-dropdown > span, .author-title, .cart-thumb-categories a, .project-details ul.client-details li span, .woocommerce .cart-collaterals .coupon .input-text, .woocommerce .cart-collaterals .cart_totals td, .woocommerce-info, .woocommerce-info a, .woocommerce .woocommerce-shipping-fields .form-row textarea, .woocommerce #payment div.payment_box, .woocommerce-page #payment div.payment_box, .dt-sc-working-hours li { color:#999999; }
 
