@@ -8,9 +8,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<title>Jimi Hendrix - Monrock Collection</title>
+	<title>Journey - Monrock Collection</title>
 	
-    <meta name="description" content="Carlos Santana">
+    <meta name="description" content="Journey">
 	<meta name="author" content="Guillermo Rayas">
 	
 	<!--[if lt IE 9]>
@@ -75,17 +75,12 @@
                         <div class="dt-sc-three-fifth column first">
                             <div class="cart-thumb">
                             	
-                                	<img id="myImg" src="../images/rock/6.jpg" alt="Carlos Santana" title="Carlos Santana" onclick="openModal();">
+                                	<img id="myImg" src="../images/rock/13.jpg" alt="Journey" title="Journey">
                                 <!-- The Modal -->
-<div id="galleryModal" class="modal">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
   
-  <span class="close" onclick="closeModal();">&times;</span>
-
-  <div class="wall-container">
-    
-    <img class="modal-painting" src="../images/rock/6.jpg" id="modalImage" alt="Painting on the wall">
-    
-  </div>
 </div>
                             </div>
                             
@@ -95,7 +90,7 @@
                             <div class="post-author-details">
                                 
                                 <div class="author-title">
-                                    <h5>SOLD</h5>
+                                    <h5>USD $1,950</h5>
                                     
                                 </div>                                
                                 
@@ -105,22 +100,22 @@
                             <div class="project-details">
                             	<ul class="client-details">
                                 	<li>
-                                    	<p><span>Title :</span>Jimi Hendrix</p>
+                                    	<p><span>Title :</span>Journey</p>
                                     </li>
                                 	<li>
                                     	<p><span>Artist :</span>Hector Monroy</p>
                                     </li>
                                 	<li>
-                                    	<p><span>Technique :</span>Oil on Canvas</p>
+                                    	<p><span>Technique :</span>Oil on masonite</p>
                                     </li>
                                 	<li>
-                                    	<p><span>Dimensions :</span>30 x 40 inches</p>
+                                    	<p><span>Dimensions :</span>24 x 32 inches</p>
                                     </li>
                                 	<li>
-                                    	<p><span>Year :</span>2017</p>
+                                    	<p><span>Year :</span>2016</p>
                                     </li>
                                 	<li>
-                                    	<p><span>Item ID :</span>#8023</p>
+                                    	<p><span>Item ID :</span>#669</p>
                                     </li>
                                 	
                                 	 <li>
@@ -162,31 +157,30 @@
 	<script type="text/javascript" src="../js/jquery.tipTip.minified.js" ></script>
 	<script type="text/javascript" src="../js/jsplugins.js" ></script>
 	<script type="text/javascript" src="../js/custom.js"></script>
-   <script type="text/javascript" src="../js/box.js"></script>  
-    
+    <script type="text/javascript" src="../js/box.js"></script>  
+    <script language="javascript" type="text/javascript">function EJEJC_lc(th) { return false; }</script>
     <script type="text/javascript" src="../js/jquery.menu-2.js"></script>
     <script>document.oncontextmenu = function () {return false}</script> 
 	<script>
-// Get the modal element
-const modal = document.getElementById("galleryModal");
+// Get the modal
+var modal = document.getElementById("myModal");
 
-// Function to open the modal
-function openModal() {
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
   modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
 }
 
-// Function to close the modal
-function closeModal() {
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
   modal.style.display = "none";
-}
-
-// Optional: Close the modal if the user clicks anywhere outside the wall
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
+}</script>
 </body>
 </html>
-
