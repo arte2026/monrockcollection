@@ -2,7 +2,11 @@
 /* CSS Document */
 
 	/*----*****---- << Columns >> ----*****----*/
-	
+	@font-face {
+		font-family: 'Caviar Dreams';
+		src: url('fonts/CaviarDreams.ttf');
+	}	
+
 	.column { margin:0px 0px 0px 2%; float:left; min-height:1px; position:relative; }
 	.column.first { margin-left:0px; }	
 	
@@ -61,8 +65,8 @@
 	
 	.dt-sc-button.small { font-size:14px; padding:11px 20px; }
 	.dt-sc-button.medium { font-size:16px; padding:16px 20px; }
-	.dt-sc-button.large { font-size:18px; padding:21px 45px; }
-	.dt-sc-button.xlarge { font-size:20px; padding:25px 50px; }	
+	.dt-sc-button.large { font-size:25px; padding:20px; font-family: 'Caviar Dreams', sans-serif;}
+	.dt-sc-button.xlarge { font-size:20px; padding:25px 50px; }
 
 	.dt-sc-button { display: inline-block; font-size: 15px; font-weight: 600; line-height: normal; margin: 0 0 1px 0; outline: medium none; position: relative; text-align: center;}
 	.dt-sc-button i { display: inline-block; margin-left: 15px; }
