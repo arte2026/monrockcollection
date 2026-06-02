@@ -74,7 +74,7 @@ body, .menu.type1, .portfolio figcaption, .portfolio figcaption::before, .bx-con
 #tiptip_holder.tip_bottom #tiptip_arrow { border-bottom-color:#000; border-bottom-color:#FFFFFF; }
 #tiptip_holder.tip_left #tiptip_arrow { border-left-color:#000; border-left-color:#FFFFFF; }
 
-.dt-sc-project-details, .dt-sc-project-details .enquiry-details p, .widget.widget_categories ul li, .widget.widget_archive ul li, .widget.widget_categories ul li:last-child, .widget.widget_categories ul li span, .widget.widget_archive ul li span, .cart-wrapper.cart-thumb-categories li .product > img, .post-author-details, ul.commentlist li, .products, .sorting-products, .woocommerce form .form-row label span, .woocommerce-shipping-fields label span { border-color:#333333; }
+.dt-sc-project-details, .dt-sc-project-details .enquiry-details p, .widget.widget_categories ul li, .widget.widget_archive ul li, .widget.widget_categories ul li:last-child, .widget.widget_categories ul li span, .widget.widget_archive ul li span, .cart-wrapper.cart-thumb-categories li .product > img, .post-author-details, ul.commentlist li, .products, .sorting-products, .woocommerce form .form-row label span, .woocommerce-shipping-fields label span { border-color:rgba(0,0,0,0.1); }
 
 .shop-dropdown > span::after, .woocommerce td, .woocommerce table th, .woocommerce table, .woocommerce #payment ul.payment_methods, .woocommerce-page #payment ul.payment_methods, .dt-sc-dropcap-bordered { border-color:#000000; }
 
