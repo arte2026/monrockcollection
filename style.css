@@ -105,7 +105,8 @@
 .uppercontact{
     border-bottom: 1px groove khaki;
     text-align: center;
-    
+    text-transform: uppercase;
+    color: khaki;
 }
 .titulo{
     background: radial-gradient(orange, gold); /* Gradient colors */
@@ -115,6 +116,7 @@
     color: transparent; /* Fallback */
     text-shadow: 0px 0px 15px gold;
 }
+
 	a { text-decoration:none; }
 	a img{ border:none; }
 	img { max-width: 100%; }
@@ -1214,7 +1216,7 @@
 	.products .product-thumb::after, .products .product-thumb::before { content: ""; height: 0; position: absolute; width: 0;}
 	.product-wrapper:hover .product-container .product-thumb::after, .product-wrapper:hover .product-container .product-thumb::before { height: 100%; width: 100%; }
 	.products .product-thumb::before { left: 0; margin: auto; top: 0; z-index: 5;}
-	.products .product-thumb img { float: left; border: 3px groove snow;}
+	.products .product-thumb img { float: left; border: 5px groove silver;}
 	
 	.products .product-wrapper:hover .product-thumb img { transform: scale(1.2); -moz-transform: scale(1.2); -webkit-transform: scale(1.2); 
 	
