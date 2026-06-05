@@ -18,13 +18,7 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, td, th, .mailchimp-f
 ::-moz-placeholder { color: #888888; }
 :-ms-input-placeholder { color: #888888; }
 
-.payment-options{
-    color: snow;
-    font-size: 100px;
-    text-align: center;
-}
-
-#footer li a, #footer .copyright p { color:gray;}
+#footer .payment-options li a, #footer .copyright p { color:#46484c;}
 
 .about-details p, .dt-sc-ico-content > p, .dt-sc-ico-content p a, .entry-details .entry-metadata p, .blog-entry .entry-metadata p a, .blog-entry .entry-title h4 a, .dt-sc-contact-details, .dt-sc-contact-details a, .enquiry-details p, .enquiry-details a, .dt-sc-contact-details:hover span, .newsletter .newsletter-text, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], input[type="search"], textarea, input.text, .widget ul li:before, .shop-dropdown > span, .author-title, .cart-thumb-categories a, .project-details ul.client-details li span, .woocommerce .cart-collaterals .coupon .input-text, .woocommerce .cart-collaterals .cart_totals td, .woocommerce-info, .woocommerce-info a, .woocommerce .woocommerce-shipping-fields .form-row textarea, .woocommerce #payment div.payment_box, .woocommerce-page #payment div.payment_box, .dt-sc-working-hours li { color:#999999; }
 
@@ -74,7 +68,7 @@ body, .menu.type1, .portfolio figcaption, .portfolio figcaption::before, .bx-con
 #tiptip_holder.tip_bottom #tiptip_arrow { border-bottom-color:#000; border-bottom-color:#FFFFFF; }
 #tiptip_holder.tip_left #tiptip_arrow { border-left-color:#000; border-left-color:#FFFFFF; }
 
-.dt-sc-project-details, .dt-sc-project-details .enquiry-details p, .widget.widget_categories ul li, .widget.widget_archive ul li, .widget.widget_categories ul li:last-child, .widget.widget_categories ul li span, .widget.widget_archive ul li span, .cart-wrapper.cart-thumb-categories li .product > img, .post-author-details, ul.commentlist li, .products, .sorting-products, .woocommerce form .form-row label span, .woocommerce-shipping-fields label span { border-color:rgba(0,0,0,0.1); }
+.dt-sc-project-details, .dt-sc-project-details .enquiry-details p, .widget.widget_categories ul li, .widget.widget_archive ul li, .widget.widget_categories ul li:last-child, .widget.widget_categories ul li span, .widget.widget_archive ul li span, .cart-wrapper.cart-thumb-categories li .product > img, .post-author-details, ul.commentlist li, .products, .sorting-products, .woocommerce form .form-row label span, .woocommerce-shipping-fields label span { border-color:#333333; }
 
 .shop-dropdown > span::after, .woocommerce td, .woocommerce table th, .woocommerce table, .woocommerce #payment ul.payment_methods, .woocommerce-page #payment ul.payment_methods, .dt-sc-dropcap-bordered { border-color:#000000; }
 
