@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import "css/reset.css";
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -47,7 +49,14 @@
 		font-family: 'Caviar Dreams';
 		src: url('fonts/CaviarDreams.ttf');
 	}	
-
+    @font-face {
+		font-family: 'Waverly CF Thin';
+		src: url('fonts/WaverlyCF-Thin.ttf');
+	}	
+	@font-face {
+		font-family: 'Waverly CF Light';
+		src: url('fonts/WaverlyCF-Light.ttf');
+	}	
 	* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 		
 	body { font-size: 16px; font-weight: normal; line-height: 28px;}
@@ -56,44 +65,30 @@
 	
 	body, p, input, textarea, .mailchimp-form p input, input[type="submit"], input[type="button"], .about-details p, .breadcrumb h2 span, .dt-sc-service-content p, .shop-dropdown ul li span, .shop-dropdown span span, 	.project-details ul.client-details li span, .project-details ul.client-details li p { font-family: 'Caviar Dreams', sans-serif;}
 	
-	 .product-title p { font-family: 'Caviar Dreams', sans-serif; font-weight: 100;}
+	 .product-title p { font-family: 'Waverly CF Light', sans-serif; font-weight: 100;}
 	
-	.main-title h1, .main-title h2, .main-title h3, .main-title h4, .main-title h5, .main-title h6, .main-title h3, .entry-details .entry-title h3, .about-section h3, .breadcrumb h2, blockquote q, .post-author-details .author-desc p { font-family: 'Caviar Dreams', sans-serif; font-weight: 100;}
+	.main-title h1, .main-title h2, .main-title h3, .main-title h4, .main-title h5, .main-title h6, .main-title h3, .entry-details .entry-title h3, .about-section h3, .breadcrumb h2, blockquote q, .post-author-details .author-desc p { font-family: 'Waverly CF Thin', sans-serif; font-weight: 100;}
 	
 	@media screen and (-webkit-min-device-pixel-ratio:0) { /* Safari only override */
 	::i-block-chrome, .main-title h1, .main-title h2, .main-title h3, .main-title h4, .main-title h5, .main-title h6, .main-title h3, .entry-details .entry-title h3, .about-section h3, .breadcrumb h2, blockquote q, .post-author-details .author-desc p {
 		font-weight: 300;}
 	}
 	
-	.dt-sc-ico-content h6 { font-family: 'Caviar Dreams', sans-serif;}
+	.dt-sc-ico-content h6 { font-family: Arial, Helvetica, sans-serif;}
  
 	/*----*****---- << 1.3. Headings >> ----*****----*/
 	
-	h1, h2, h3, h4 { font-weight:normal; line-height:30px;}	
-	h5, h6 { font-weight:normal; line-height:30px;}	
+	h1, h2, h3, h4 { font-weight:normal; line-height:30px; margin-bottom:20px; }	
+	h5, h6 { font-weight:normal; line-height:30px; margin-bottom:5px; }	
 	h1{ font-size:30px; }
 	h2{ font-size:28px; }
 	h3{ font-size:25px; }
 	h4{ font-size:20px; }
 	h5{ font-size:18px; }
-	h6{ font-size:16px; }
+	h6{ font-size:16px; margin-bottom:1px; }
 	
 	/*----*****---- << 1.4. Text Elements >> ----*****----*/
-
-.uppercontact{
-    text-align: center;
-    color: white;
-}
-
-.titulo2{
-    background: radial-gradient(white, silver); /* Gradient colors */
-    -webkit-background-clip: text; /* Clip background to text (Safari/Chrome) */
-    -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
-    background-clip: text; /* Standard property for Firefox */
-    color: transparent; /* Fallback */
-    text-shadow: 0px 0px 15px white;
-}
-
+	
 	a { text-decoration:none; }
 	a img{ border:none; }
 	img { max-width: 100%; }
@@ -110,7 +105,7 @@
 	sub { bottom: -3px; }
 	sup { top: -5px; }	
 	
-	p { line-height:28px;}	
+	p { line-height:28px; margin-bottom:20px; }	
 	ul, ol, pre, code{ margin-bottom:10px; }
 	
 	ul { list-style-type:none; list-style-position:inside; }
@@ -182,7 +177,7 @@
 	
 	/*----*****---- << 1.8. Images >> ----*****----*/
 	
-	img { max-width:100%;border: 1px solid dimgray; }
+	img { max-width:100%; }
 	
 	.wp-caption { background:#C4C1AE; border:1px solid #C4C1AE; margin-bottom:10px; margin-top:10px; max-width:96%; padding:5px 7px 7px 5px; }
 	.wp-caption img { display:block; margin: 0 auto; padding:6px; max-width:98%; }
@@ -191,8 +186,8 @@
 	img.size-auto, img.size-large, img.size-full, img.size-medium { max-width:99.6%; height: auto; }
 	.alignleft, img.alignleft { display: inline; float: left; margin-right: 15px; }
 	.alignright, img.alignright { display: inline; float: right; margin-left: 15px; text-align:right; }
-	.aligncenter, img.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; text-align:center;}
-	.alignleft, .alignright, .aligncenter, .alignnone, img.alignleft, img.alignright, img.aligncenter { margin-bottom:90px; }
+	.aligncenter, img.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; text-align:center; }
+	.alignleft, .alignright, .aligncenter, .alignnone, img.alignleft, img.alignright, img.aligncenter { margin-bottom:20px; }
 	
 	.align-center { margin:0 auto; display:block; }
 
@@ -664,7 +659,7 @@
 	
 	/*----*****---- << 2.4.1. BREAD-CRUMB >> ----*****----*/	
 	
-	.breadcrumb { clear: both; float: left; padding: 30px; position: relative; width: 100%;}
+	.breadcrumb { clear: both; float: left; padding: 120px 0 10px; position: relative; width: 100%;}
 	.breadcrumb h2 { display: inline-block; font-size: 35px; margin: 40px 0; font-weight: 300; text-transform: capitalize;}
 	.breadcrumb h2 span { color: #ececec; font-size: 35px; font-weight: 700; letter-spacing: 0px; text-transform: uppercase;}	
 	.breadcrumb .user-summary { display: inline-block; float: right; margin: 30px 0; text-transform: uppercase;}
@@ -673,9 +668,9 @@
 	
 	/*----*****---- << 2.4.2. Fullwidth - Page Title >> ----*****----*/	
 	
-	.main-title { float:left; width:100%; margin: 20px 0px; text-align: center; position:relative; }
+	.main-title { float:left; width:100%; margin: 0 0 50px; padding:0 40 0 40; text-align: center; position:relative; }
 	.main-title::before { background: url("images/title-line.png") no-repeat; bottom: -15px; content: ""; display: block; float: left; height: 20px; left: 0; margin: 10px auto 0; position: absolute; right: 0; width: 100%; background-position: center center; }	
-	.main-title h1, .main-title h2, .main-title h3, .main-title h4, .main-title h5, .main-title h6 { display: block; line-height: normal;}
+	.main-title h1, .main-title h2, .main-title h3, .main-title h4, .main-title h5, .main-title h6 { display: block; margin-bottom: 5px; line-height: normal; text-transform: uppercase; }
 	.main-title h1 { font-size:75px; }
 	.main-title h2 { font-size:70px; }
 	.main-title h3 { font-size:60px; }
@@ -694,11 +689,11 @@
 	/*----*****---- << 2.4.3. Portfolio >> ----*****----*/
 	
 	.dt-sc-sorting-container { border-left: 0 none; clear: both; display: inline-block; float: left; line-height: normal; margin: 10px 0 60px 0; padding: 0; text-align: center; width: 100%;}
-	.dt-sc-sorting-container button { cursor: pointer; display: inline-block; font-size: 14px; font-weight: normal; line-height: normal; margin-right: 5px; margin-bottom: 5; outline: medium none; padding: 15px 30px; position: relative; text-transform: uppercase; z-index: 1;}
+	.dt-sc-sorting-container a { cursor: pointer; display: inline-block; font-size: 14px; font-weight: normal; line-height: normal; margin-right: 5px; margin-bottom: 5; outline: medium none; padding: 15px 30px; position: relative; text-transform: uppercase; z-index: 1;}
 	
 		
 	.portfolio-grid { padding: 80px 40px 40px 80px; width:100%; float: left; box-sizing: border-box; }
-	.portfolio-fullwidth { background: url("images/fondo2.jpg") repeat; float: left; width: 100%; margin-bottom: 20px;}
+	.portfolio-fullwidth { background: url("images/fondo2.jpg") repeat; float: left; width: 100%; margin-bottom: 80px;}
 	
 	.dt-sc-portfolio-container { clear: both; float: left; margin: 0; padding: 0; width: 100%;}
 	.dt-sc-portfolio-container .portfolio { overflow: hidden; position: relative; margin-bottom: 40px;}
@@ -937,9 +932,9 @@
 	
 	/*----*****---- << 2.4.6. About Us >> ----*****----*/
 	
-	.about-section { float: left; padding:0; margin: 20px 0px 0px 0px; width: 100%;}
+	.about-section { float: left; padding:0; margin: 40px 0 50px; width: 100%;}
 	.about-section h3 { float: left; font-size: 40px; margin-bottom: 15px; padding: 0; text-transform: uppercase; width: 100%;}
-	.about-section p { float: left; width: 100%;}
+	.about-section p { float: left; margin-bottom: 50px; width: 100%;}
 	
 	.mailchimp-form, #commentform, .enquiry-form { position:relative; margin-top:5px; float:left; width: 100%;}	
 	.mailchimp-form .submit, #searchform .submit { position:absolute; right: 0; top: 0; padding: 16px 16px 18px; min-height:50px; border-radius:0px 1px 1px 0px; font-size:16px; cursor: pointer;}
@@ -1088,7 +1083,7 @@
 		
 	/*----*****---- << 2.4.9. Shop >> ----*****----*/
 	
-	.shop-grid { box-sizing: border-box; float: left; padding: 0px 50px; width: 100%;}
+	.shop-grid { box-sizing: border-box; float: left; padding: 50px; width: 100%;}
 	.sorting-products { border-bottom: 1px solid; float: left; width: 100%;}
 	.sorting-products .categories { float: left; width: 100%;}
 
@@ -1144,12 +1139,12 @@
 	.cart-wrapper .commententries h6 { float: right; margin: 0;}
 	.cart-wrapper .commententries h6 i { display: inline-block; margin: 0 10px 0 0; padding: 0;}
 	.commententries h6 a { float: left; line-height: 30px; width: 100%;}
-	.cart-wrapper .post-author-details { border-top: medium none; text-align: center; padding: 20px 50px;}
+	.cart-wrapper .post-author-details { border-top: medium none; padding: 20 0 20px;}
 	.entry-author-image { float: left; margin-right: 30px;}
 	.entry-author-image img { border-radius: 50%;}
 	.cart-wrapper .author-desc { padding: 0;}
-	.author-title { float: left; padding: 10px 0; line-height: 22px; width: 95%;}
-	.author-title h5 { float: left; font-size: 50px; color: gold; margin: 5px;}
+	.author-title { float: left; padding:10px 0; line-height: 22px; margin-bottom: 1px; width: 95%;}
+	.author-title h5 { float: left; margin-bottom: 0; margin-right: 4px; font-size: 50px;color: gold;}
 	.author-title > span { float: left; width: 100%;}
 	.author-title .star-rating { float: left;}
 	.author-title .woocommerce-product-rating { display: inline-block; float: left;}
@@ -1193,7 +1188,7 @@
 	.products .product-thumb::after, .products .product-thumb::before { content: ""; height: 0; position: absolute; width: 0;}
 	.product-wrapper:hover .product-container .product-thumb::after, .product-wrapper:hover .product-container .product-thumb::before { height: 100%; width: 100%; }
 	.products .product-thumb::before { left: 0; margin: auto; top: 0; z-index: 5;}
-	.products .product-thumb img { float: left; border: 5px groove silver;}
+	.products .product-thumb img { float: left; border: 3px groove snow;}
 	
 	.products .product-wrapper:hover .product-thumb img { transform: scale(1.2); -moz-transform: scale(1.2); -webkit-transform: scale(1.2); 
 	
@@ -1233,8 +1228,8 @@
 	/*----*****---- << 2.5. Footer >> ----*****----*/
 	
 	#footer { float: left; margin: 0; padding: 0; position: relative; width: 100%; clear:both; }	
-	#footer::before { background: url("images/title-line22.png") repeat-x; content: ""; height: 20px; position: absolute; width: 100%;}
-	#footer .copyright { clear: both; text-align: center; float: left; padding: 70px 0px 20px 0px; width: 100%;}	
+	#footer::before { background: url("images/title-line.png") repeat-x; content: ""; height: 20px; position: absolute; width: 100%;}
+	#footer .copyright { clear: both; text-align: center; float: left; padding: 70px 0; width: 100%;}	
 
 	#footer .copyright .footer-links { float: left; margin:0 0 35px 0; width: 100%;}
 	#footer .copyright .footer-links li { display: inline; padding-bottom: 0;}
