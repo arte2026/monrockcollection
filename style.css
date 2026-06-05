@@ -49,14 +49,7 @@
 		font-family: 'Caviar Dreams';
 		src: url('fonts/CaviarDreams.ttf');
 	}	
-    @font-face {
-		font-family: 'Waverly CF Thin';
-		src: url('fonts/WaverlyCF-Thin.ttf');
-	}	
-	@font-face {
-		font-family: 'Waverly CF Light';
-		src: url('fonts/WaverlyCF-Light.ttf');
-	}	
+    
 	* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 		
 	body { font-size: 16px; font-weight: normal; line-height: 28px;}
@@ -65,16 +58,16 @@
 	
 	body, p, input, textarea, .mailchimp-form p input, input[type="submit"], input[type="button"], .about-details p, .breadcrumb h2 span, .dt-sc-service-content p, .shop-dropdown ul li span, .shop-dropdown span span, 	.project-details ul.client-details li span, .project-details ul.client-details li p { font-family: 'Caviar Dreams', sans-serif;}
 	
-	 .product-title p { font-family: 'Waverly CF Light', sans-serif; font-weight: 100;}
+	 .product-title p { font-family: 'Caviar Dreams', sans-serif; font-weight: 100;}
 	
-	.main-title h1, .main-title h2, .main-title h3, .main-title h4, .main-title h5, .main-title h6, .main-title h3, .entry-details .entry-title h3, .about-section h3, .breadcrumb h2, blockquote q, .post-author-details .author-desc p { font-family: 'Waverly CF Thin', sans-serif; font-weight: 100;}
+	.main-title h1, .main-title h2, .main-title h3, .main-title h4, .main-title h5, .main-title h6, .main-title h3, .entry-details .entry-title h3, .about-section h3, .breadcrumb h2, blockquote q, .post-author-details .author-desc p { font-family: 'Caviar Dreams', sans-serif; font-weight: 100;}
 	
 	@media screen and (-webkit-min-device-pixel-ratio:0) { /* Safari only override */
 	::i-block-chrome, .main-title h1, .main-title h2, .main-title h3, .main-title h4, .main-title h5, .main-title h6, .main-title h3, .entry-details .entry-title h3, .about-section h3, .breadcrumb h2, blockquote q, .post-author-details .author-desc p {
 		font-weight: 300;}
 	}
 	
-	.dt-sc-ico-content h6 { font-family: Arial, Helvetica, sans-serif;}
+	.dt-sc-ico-content h6 { font-family: 'Caviar Dreams', sans-serif;}
  
 	/*----*****---- << 1.3. Headings >> ----*****----*/
 	
